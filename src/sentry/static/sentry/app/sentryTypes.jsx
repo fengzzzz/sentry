@@ -373,7 +373,7 @@ export const Widget = PropTypes.shape({
   }),
   title: PropTypes.node,
   fieldLabelMap: PropTypes.object,
-  yAxisMapping: PropTypes.object,
+  yAxisMapping: PropTypes.array,
 });
 
 export const EChartsData = PropTypes.arrayOf(
